@@ -3,13 +3,15 @@
 
 <head>
   <link rel="stylesheet" href="/styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
-  <h1>What do you ask of The Grey Mare?</h1>
-  <textarea id="prompt"></textarea>
-  <button id="test-button">Ask</button>
-  <h1>The Grey Mare's reply</h1>
+  <h1>the grey mare chatbot</h1>
+  <p>what do you ask of the grey mare?</p>
+  <textarea autofocus id="prompt" rows="3"></textarea><br>
+  <button id="test-button">ask</button>
+  <button class="button2" onClick="window.location.reload();">refresh</button>
   <div id="response"></div>
   <script src="/index.js"></script>
 </body>
