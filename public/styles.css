@@ -1,71 +1,81 @@
-h1 {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 8vw;
-  color: 	#FFF8DC;
-  border-bottom: solid;
-  border-bottom-color: #e3e39c;
-  border-width: 4pt;
-  margin-left: 65px;
-  margin-right: 50px;
-  margin-bottom: 20px;
-}
 p {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 3vw;
-  color: 	#FFF8DC;
-  margin-left: 65px;
+  color: #000;
+  margin-left: 120px;
   margin-right: 50px;
 }
 textarea {
-  font-size: 3vw;
+  font-size: 2vw;
   font-family: Arial, Helvetica, sans-serif;
-  color:#808a88;
-  margin-left: 65px;
-  margin-right: 50px;
+  color: #808a88;
+  margin-left: 120px;
   width: 75%;
-  padding: 12px 24px;
+  padding: 5px 5px;
   resize: none;
-  background-color: #FFF8DC;
-  border: 2px solid #FFF8DC;
+  background-color: #e3e39c;
   border-radius: 5px;
-}
-div {
-  margin-left: 65px;
-  margin-right: 50px;
 }
 body {
   background-color: #808a88;
 }
 #response {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 3vw;
-  color: 	#FFF8DC;
-  padding-top: 15px;
+  font-size: 2vw;
+  color: 	#000;
+  padding-top: 30px;
   padding-bottom: 15px;
+  margin-left: 120px;
+  margin-right: 90px;
 }
 button {
-  border: 1px;
-  font-size: 3vw;
+  border: 2px solid #e3e39c;
+  font-size: 2vw;
   text-align: center;
-  color: #808a88;
-  padding: 8px 50px;
+  color: #e3e39c;
+  padding: 8px 30px;
   display: inline-flex;
   cursor: pointer;
-  margin-left: 65px;
+  margin-left: 120px;
   margin-top: 10px;
-  background-color: #e3e39c;
+  background-color: #808a88;
   border-radius: 5px;
+  transition-duration: 0.4s;
 }
+
 .button2 {
-  border: 1px;
-  font-size: 3vw;
+  border: 2px solid #e3e39c;
+  font-size: 2vw;
   text-align: center;
-  color: #808a88;
-  padding: 8px 50px;
+  color: #e3e39c;
+  padding: 8px 30px;
   display: inline-flex;
   cursor: pointer;
-  margin-left: 30px;
+  margin-left: 120px;
   margin-top: 10px;
-  background-color: #e3e39c;
+  background-color: #808a88;
   border-radius: 5px;
+  transition-duration: 0.4s;
+}
+.button2:hover {
+  background-color: #e3e39c;
+  color: black;
+}
+.button3 {
+  border: 2px solid #e3e39c;
+  font-size: 2vw;
+  text-align: center;
+  color: #e3e39c;
+  padding: 8px 30px;
+  display: inline-flex;
+  cursor: pointer;
+  margin-left: 60px;
+  margin-top: 10px;
+  background-color: #808a88;
+  border-radius: 5px;
+  transition-duration: 0.4s;
+}
+.button3:hover {
+  background-color: #e3e39c;
+  color: black;
 }
