@@ -2,15 +2,15 @@ p {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 3vw;
   color: #000;
-  margin-left: 120px;
-  margin-right: 50px;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 textarea {
   font-size: 2vw;
   font-family: Arial, Helvetica, sans-serif;
   color: #808a88;
-  margin-left: 120px;
-  width: 66%;
+  margin-left: 20%;
+  width: 60%;
   padding: 5px 5px;
   resize: none;
   background-color: #e3e39c;
@@ -33,10 +33,10 @@ button {
   font-size: 2vw;
   text-align: center;
   color: #e3e39c;
-  padding: 8px 30px;
+  padding: 8px 20px;
   display: inline-flex;
   cursor: pointer;
-  margin-left: 120px;
+  margin-left: 20%px;
   margin-top: 10px;
   background-color: #808a88;
   border-radius: 5px;
@@ -48,10 +48,10 @@ button {
   font-size: 2vw;
   text-align: center;
   color: #e3e39c;
-  padding: 8px 30px;
+  padding: 8px 20px;
   display: inline-flex;
   cursor: pointer;
-  margin-left: 120px;
+  margin-left: 20%;
   margin-top: 10px;
   background-color: #808a88;
   border-radius: 5px;
@@ -66,7 +66,7 @@ button {
   font-size: 2vw;
   text-align: center;
   color: #e3e39c;
-  padding: 8px 30px;
+  padding: 8px 20px;
   cursor: pointer;
   margin-left: 60px;
   margin-top: 10px;
@@ -79,5 +79,6 @@ button {
   color: black;
 }
 img {
-  margin-left: 70px;
+  margin-left: 10%;
+  margin-top: 15%;
 }
