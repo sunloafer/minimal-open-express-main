@@ -5,7 +5,7 @@ import talkApi from "./api/talk.mjs";
 const api = express();
 
 const router = Router();
-router.post('/talk', talkApi);
+router.post('api/talk', talkApi);
 
 api.use("/api/", router);
 
