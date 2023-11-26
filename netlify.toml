@@ -4,6 +4,6 @@
   directory = "netlify/functions"
 [[redirects]]
   force = true
-  from = "/api/*"
+  from = "/api/talk.mjs"
   status = 200
   to = "/.netlify/functions/api/:splat"
