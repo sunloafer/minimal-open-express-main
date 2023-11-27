@@ -1,13 +1,13 @@
 import 'dotenv/config' 
 import express from "express";
-import talkApi from "./api/talk.mjs";
 
+import talkApi from "./netlify/talk.mjs";
 const app = express();
 const port = 3000;
 
 app.use(express.json());
 
-app.post('/talk', talkApi)
+app.post('/api/talk', talkApi)
 
 app.use("/", express.static("public"));
 

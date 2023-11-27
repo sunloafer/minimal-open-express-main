@@ -4,7 +4,7 @@ const prompt = document.getElementById('prompt');
 
 const getTheResponse = async () => {
   response.innerText = "Listen closely!";
-  const res = await fetch('/talk', {
+  const res = await fetch('/api/talk', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',

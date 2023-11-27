@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "node app.mjs"
+    "dev": "node app.mjs",
+    "netlify": "netlify dev"
   },
   "keywords": [],
   "author": "",
@@ -13,6 +14,10 @@
     "dotenv": "^16.0.1",
     "express": "^4.18.1",
     "openai": "^3.0.0",
-    "openai-api": "^1.3.1"
+    "openai-api": "^1.3.1",
+    "serverless-http": "^3.2.0"
+  },
+  "devDependencies": {
+    "netlify-cli": "^17.7.0"
   }
 }
