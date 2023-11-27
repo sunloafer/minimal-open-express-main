@@ -40,7 +40,7 @@ const handle = async (req, res) => {
       You:`;
 
     const gptResponse = await openai.complete({
-      engine: "gpt-3.5-turbo",
+      engine: 'davinci',
       prompt,
       max_tokens: 256,
       //temperature: 0.7,
