@@ -40,15 +40,13 @@ const handle = async (req, res) => {
       You:`;
 
     const gptResponse = await openai.complete({
-      model:"gpt-4",
+      model: "gpt-4",
       prompt,
-      maxTokens: 256,
-      temperature: 0.8,
+      max_tokens: 256,
+      temperature: 0.7,
       topP: 1,
-      presencePenalty: 0.5,
-      frequencyPenalty: 0,
-      // bestOf: 1,
-      // n: 2,
+      presence_penalty: 0.5,
+      frequency_penalty: 0,
       stop: ['\n', "You:", "User:"],
       stream: false,
     });
