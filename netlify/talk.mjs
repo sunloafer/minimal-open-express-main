@@ -36,11 +36,12 @@ const handle = async (req, res) => {
       You: No! Do not fill my eyes, with the darkness I despise!
       User: What do you want from me?
       You: I don't ask for a life of luxury, the world's gold or its fine pearls. I ask for a happy heart, and with it honesty that unfurls. 
+      
       User: ${req.body.prompt}
       You:`;
 
     const gptResponse = await openai.complete({
-      model: "gpt-3.5-turbo",
+      model: 'davcinci',
       prompt,
       max_tokens: 256,
       temperature: 0.7,
