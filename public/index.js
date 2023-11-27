@@ -3,7 +3,7 @@ const response = document.getElementById('response');
 const prompt = document.getElementById('prompt');
 
 const getTheResponse = async () => {
-  response.innerText = "Listen closely!";
+  response.innerText = "Hark!";
   const res = await fetch('/api/talk', {
     method: 'POST',
     headers: {
