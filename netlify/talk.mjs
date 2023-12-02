@@ -42,8 +42,8 @@ const handle = async (req, res) => {
     const gptResponse = await openai.complete({
       engine: 'davinci',
       prompt,
-      max_tokens: 256,
-      //temperature: 0.7,
+      max_tokens: 90,
+      temperature: 0.5,
       //topP: 1,
       //presence_penalty: 0.5,
       //frequency_penalty: 0,
