@@ -43,7 +43,7 @@ const handle = async (req, res) => {
       engine: 'davinci-002',
       prompt,
       max_tokens: 88,
-      temperature: 0.6,
+      temperature: 0.65,
       topP: 0.75,
       //presence_penalty: 0.5,
       //frequency_penalty: 0,
